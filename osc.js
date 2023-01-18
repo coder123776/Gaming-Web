@@ -2,6 +2,7 @@ class SnakeGame {
     constructor() {
       this.canvas = document.getElementById("snake");
       this.context = this.canvas.getContext("2d");
+      this.GameF = document.getElementById('gameFrame')
   
       document.addEventListener("keydown", this.onKeyPress.bind(this));
     }

@@ -11,6 +11,7 @@ div#gameFrame{
     cursor: crosshair;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
     overflow: hidden;
     user-select: none;
@@ -193,6 +194,9 @@ div.tx{
 #remain p{
     margin-left: 2%;
 }
+    #snake{
+        margin-left: 20.5%;
+    }
 @media screen and (max-width: 1000px) {
     .img img{
         height: 30%;
