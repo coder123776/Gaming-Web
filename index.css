@@ -168,11 +168,11 @@ div.img{
 @keyframes backgrounds{
     0% {background-image: url(docs/ameTumbnail2.png);}
 
-   20% {background-image: url(docs/gta.jpg);}
+   20% {background-image: url(docs/spaceShooter.jpg);}
 
-   40% {background-image: url(docs/apex.jpg);}
+   40% {background-image: url(docs/snakeBack2.jpg);}
 
-   60% {background-image: url(docs/cod.jpg);}
+   60% {background-image: url(docs/snakeBack1.webp);}
 
    80% {background-image: url(docs/fortnite.jpg);}
 }
