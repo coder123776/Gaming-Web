@@ -1,0 +1,158 @@
+section{
+    display: flex;
+    flex-direction: column;
+}
+.balk{
+    background-color: #000000;
+}
+.s{
+    height: 25%;
+    width: 100%;
+    overflow: hidden;
+}
+.s1{
+    background-color: #7B68EE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.txt h1{
+    text-shadow: #FF69B4 1px 0 10px;
+}
+.txt p{
+    text-shadow: #FF69B4 1px 0 10px;
+}
+.img{
+    position: relative;
+    background-color: white;
+    height: 70%;
+    width: 25%;
+    border-radius: 20px;
+    margin-left: 10%;
+    overflow: hidden;
+}
+.s1 img{
+    width: 100%;
+    height: 100%;
+}
+.txt{
+    position: relative;
+    height: 80%;
+    width: 40%;
+    color: white;
+    font-size: 200%
+}
+.txt p{
+    font-size: 60%;
+}
+
+
+
+.s2{
+    background-color: #7B68EE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.s2 h1{
+    margin-left: 25%;
+}
+.s2 p{
+    margin-left: 25%;
+}
+.menu{
+    width: 50%;
+    height: 100%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 60%;
+    height: 20%;
+    background: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card a{
+    width: 100%;
+    height: 100%;
+}
+.card img{
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.s3{
+    background-color: #7B68EE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tekst{
+    position: relative;
+    background: none;
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 400%;
+    overflow: hidden;
+    color: white;
+}
+.tekst2{
+    position: relative;
+    background: none;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.tekst2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.tekst2 a{
+    width: 100%;
+    height: 100%;
+}
+
+
+.s4{
+    background-color: #7B68EE;
+    display: flex;
+    justify-content: space-evenly;
+}
+.txtt{
+    position: relative;
+    text-align: center;
+    height: 80%;
+    width: 40%;
+    margin-top: 5%;
+    color: white;
+    font-size: 200%
+}
+.txtt p{
+    font-size: 80%;
+}
+
+@media screen and (max-width: 900px) {
+    .img{
+        width: 50%;
+        margin: 0%;
+    }
+    .card{
+        width: 80%;
+    }
+    .image{
+        height: 45%;
+    }
+}
