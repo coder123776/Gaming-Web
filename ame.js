@@ -60,16 +60,13 @@ function updateHealthPoints(points) {
 
 function enemyShootsMe(enemy) {
     enemy.classList.add("shooting");
-    enemy.classList.add("gun");
     updateHealthPoints(healthPoints - 0.5);
 
     if(!enemy.classList.contains("dead")) {
-        enemy.classList.add("shooting");
-        enemy.classList.add("gun");
+        enemy.classList.remove("shooting");
     
     setTimeout(()=> {
         enemy.classList. remove("shooting");
-        enemy.classList. remove("gun");
     }, 200);
     }
 }
@@ -92,7 +89,7 @@ function randomEnemyAttacks() {
 
 function newGame() {
     pirate.play();
-    pirate.volume = 0.5
+    pirate.volume = 0.5;
     randomEnemyAttacks();
     document.querySelector("button").style.display = "none";
 }
